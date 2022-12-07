@@ -1,3 +1,5 @@
+n=int(input(entrer un nombre))
+
 def factorielle(n):
     if(n>0):
         fact=1
@@ -5,3 +7,4 @@ def factorielle(n):
             fact*=i
         return fact
     return 1
+print (factorielle(n))
