@@ -1,3 +1,4 @@
+n=int(input(entrer un nombre))
 def chiffreNombre(n):
     if n == 0:
         return 1
@@ -7,3 +8,4 @@ def chiffreNombre(n):
             count += 1
             n//=10
         return count
+print(chiffreNombre(n))
