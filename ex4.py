@@ -1,3 +1,5 @@
+
+n=int(input(entrer un nombre))
 def DecimalToBinary(n):
     if n == 0:
         return 0
@@ -8,3 +10,4 @@ def DecimalToBinary(n):
             re = str(r)+re
             n//= 2
         return int(re)
+print(DecimalToBinary(n))
